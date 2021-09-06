@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Encargo 4 - Simulación y diseño generativo - Mariana Munita - Taller Fabricación 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://marianasmg.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a32658f2eedb9bb852f8513925cb445e40633983f1ff54349b037dd04eafa2fa.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-list'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://marianasmg.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://marianasmg.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://marianasmg.github.io/docs/encargo-0-design-remix-share/">Encargo 0 - Design Remix Share</a>
+    </li>
+    
+    <li class="">
+      <a href="https://marianasmg.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+
+<span class="overview">Resumen</span>
+<h1 class="title">Encargo 4 - Simulación y diseño generativo</h1>
+<div class="content">
+  <!-- raw HTML omitted -->
+<hr>
+<h2 id="qué-es-el-diseño-generativo">¿Qué es el diseño generativo?</h2>
+<p>El diseño generativo es un proceso de exploración de diseño. Los diseñadores o ingenieros introducen objetivos de diseño en el software de diseño generativo, junto con parámetros tales como el rendimiento o los requisitos espaciales, los materiales, los métodos de fabricación y las limitaciones de costos.</p>
+<h4 id="paso-1-tensión-estática">Paso 1: Tensión estática</h4>
+<p>Abrimos el archivo de &ldquo;Ala sola&rdquo; elegimos del menú <strong>Simulation</strong>
+<img src="/img/generativo/gen1.png" alt="Imagen Simple">
+Luego, damos click en <strong>Study</strong> y elegimos del menú <strong>Static stress</strong>
+<img src="/img/generativo/gen2.png" alt="Imagen Simple"></p>
+<h4 id="paso-2-restricciones">Paso 2: Restricciones</h4>
+<p>Damos click a <strong>Constraints</strong> y seleccionamos las partes del ala que no tienen movimiento, en este caso los lados marcados en la imagen. Así estas partes no serán modificadas dentro del proceso.
+<img src="/img/generativo/gen3.png" alt="Imagen Simple"></p>
+<h4 id="paso-3-cargas">Paso 3: Cargas</h4>
+<p>Damos click a <strong>Loads</strong>, seleccionamos la cara inferior del ala y definimos la magnitud en <strong>1000 Newton</strong>
+<img src="/img/generativo/gen4.png" alt="Imagen Simple"></p>
+<h4 id="paso-4-resultados">Paso 4: Resultados</h4>
+<p>Luego, damos click a <strong>Resolve</strong> para obtener los resultados de la simulación. Ahí veremos las deformaciones que sufre el ala y cuales zonas reciben mayores y menores cargas.
+<img src="/img/generativo/gen5.png" alt="Imagen Simple"></p>
+<h4 id="áreas-de-menor-deformación">Áreas de menor deformación</h4>
+<p><img src="/img/generativo/gen6.png" alt="Imagen Simple"></p>
+<h4 id="áreas-de-mayor-deformación">Áreas de mayor deformación</h4>
+<p><img src="/img/generativo/gen7.png" alt="Imagen Simple"></p>
+<h2 id="hahahugoshortcode-s0-hbhb"><div>
+    <iframe 
+    src='https://alumnos4809.autodesk360.com/shares/public/SH919a0QTf3c32634dcf27b762394a2c9b95?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div></h2>
+<h3 id="modelo-bracket">Modelo Bracket</h3>
+<h4 id="paso-1-abrir-modelo">Paso 1: Abrir modelo</h4>
+<p>Abrimos el modelo GE Bracket en Fusion 360 en modo <strong>Diseño generativo</strong>
+<img src="/img/generativo/gen8.png" alt="Imagen Simple"></p>
+<h4 id="paso-2-conservar-geometría">Paso 2: Conservar geometría</h4>
+<p>De las cajitas de <strong>Design space</strong> seleccionamos la verde, la cual nos permitirá que no sufran ninguna modificación al seleccionar en el modelo.
+<img src="/img/generativo/gen9.png" alt="Imagen Simple"></p>
+<h4 id="paso-3-geometrías-de-obstáculo">Paso 3: Geometrías de obstáculo</h4>
+<p>Ahora, seleccionamos la cajita roja de <strong>Design space</strong> seleccionamos en el modelo lo que no debe tener material.
+<img src="/img/generativo/gen10.png" alt="Imagen Simple"></p>
+<h4 id="paso-4-restricciones-estructurales">Paso 4: Restricciones estructurales</h4>
+<p>Luego, apagamos las secciones que quedaron de color rojo y aplicamos <strong>Structural restrictions</strong> y seleccionamos la base de los 4 cilindros (quedarán con candado).
+<img src="/img/generativo/gen11.png" alt="Imagen Simple"></p>
+<h4 id="paso-5-cargas-estructurales">Paso 5: Cargas estructurales</h4>
+<p>Utilizamos la operación <strong>Structural loads</strong> y seleccionamos la parte interna de los cilindros superiores del modelo. Cambiamos el tipo de dirección a <strong>vectorial</strong> y en el <strong>eje z</strong> definimos una fuerza de <strong>-1000 Newton</strong>
+<img src="/img/generativo/gen12.png" alt="Imagen Simple"></p>
+<h4 id="paso-6-objetivos">Paso 6: Objetivos</h4>
+<p>Luego, debemos definir los objetivos haciendo click en <strong>Design criteria &gt; Objectives</strong>, estos objetivos pueden ser: Minimizar la masa de la pieza o maximizar su rigidez. En este caso seleccionamos <strong>Minimizar la masa</strong>
+<img src="/img/generativo/gen13.png" alt="Imagen Simple"></p>
+<h4 id="paso-7-manufactura">Paso 7: Manufactura</h4>
+<p>Luego debemos definir la técnica de manufactura, seleccionamos <strong>Design criteria &gt; Manufacturing</strong> y seleccionamos <strong>Additive</strong>
+<img src="/img/generativo/gen14.png" alt="Imagen Simple"></p>
+<h4 id="paso-8-materiales">Paso 8: Materiales</h4>
+<p>Seleccionamos los siguientes materiales:</p>
+<ol>
+<li>Titanio</li>
+<li>Aluminio</li>
+<li>Acero inoxidable</li>
+<li>Plástico</li>
+</ol>
+<h4 id="paso-9-previsualizar">Paso 9: Previsualizar</h4>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/simulacion.mp4"  type="video/mp4">
+    </video>
+</div>
+<h4 id="resultados">Resultados</h4>
+<p><img src="/img/generativo/gen15.png" alt="Imagen Simple">
+<img src="/img/generativo/gen16.png" alt="Imagen Simple">
+<img src="/img/generativo/gen17.png" alt="Imagen Simple"></p>
+<div>
+    <iframe 
+    src='https://alumnos4809.autodesk360.com/shares/public/SH919a0QTf3c32634dcf0d6d33abeade46a2?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<h3 id="galería">Galería</h3>
+<p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen1.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen1.png" alt="Gen1" />
+				    </div>
+			      <figcaption>
+		          <p>Gen1</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen1.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen10.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen10.png" alt="Gen10" />
+				    </div>
+			      <figcaption>
+		          <p>Gen10</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen10.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen11.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen11.png" alt="Gen11" />
+				    </div>
+			      <figcaption>
+		          <p>Gen11</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen11.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen12.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen12.png" alt="Gen12" />
+				    </div>
+			      <figcaption>
+		          <p>Gen12</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen12.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen13.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen13.png" alt="Gen13" />
+				    </div>
+			      <figcaption>
+		          <p>Gen13</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen13.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen14.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen14.png" alt="Gen14" />
+				    </div>
+			      <figcaption>
+		          <p>Gen14</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen14.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen15.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen15.png" alt="Gen15" />
+				    </div>
+			      <figcaption>
+		          <p>Gen15</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen15.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen16.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen16.png" alt="Gen16" />
+				    </div>
+			      <figcaption>
+		          <p>Gen16</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen16.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen17.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen17.png" alt="Gen17" />
+				    </div>
+			      <figcaption>
+		          <p>Gen17</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen17.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen2.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen2.png" alt="Gen2" />
+				    </div>
+			      <figcaption>
+		          <p>Gen2</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen2.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen3.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen3.png" alt="Gen3" />
+				    </div>
+			      <figcaption>
+		          <p>Gen3</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen3.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen4.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen4.png" alt="Gen4" />
+				    </div>
+			      <figcaption>
+		          <p>Gen4</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen4.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen5.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen5.png" alt="Gen5" />
+				    </div>
+			      <figcaption>
+		          <p>Gen5</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen5.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen6.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen6.png" alt="Gen6" />
+				    </div>
+			      <figcaption>
+		          <p>Gen6</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen6.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen7.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen7.png" alt="Gen7" />
+				    </div>
+			      <figcaption>
+		          <p>Gen7</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen7.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen8.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen8.png" alt="Gen8" />
+				    </div>
+			      <figcaption>
+		          <p>Gen8</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen8.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://marianasmg.github.io//img/generativo//gen9.png');" >
+				      <img itemprop="thumbnail" src="https://marianasmg.github.io//img/generativo//gen9.png" alt="Gen9" />
+				    </div>
+			      <figcaption>
+		          <p>Gen9</p>
+			      </figcaption>
+				    <a href="https://marianasmg.github.io//img/generativo//gen9.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+<h3 id="fuentes">Fuentes</h3>
+<p><a href="https://www.autodesk.mx/campaigns/fumec-manufactura/diseno-generativo">https://www.autodesk.mx/campaigns/fumec-manufactura/diseno-generativo</a></p>
+
+</div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>

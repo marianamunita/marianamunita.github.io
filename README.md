@@ -1,1 +1,1 @@
-# marianamunita.github.io
+# MarianaSMG.github.io
